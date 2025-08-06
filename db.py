@@ -10,7 +10,7 @@ def init_db():
     with sqlite3.connect(db_path) as conn: # open connection to database and closes it automatically
         c = conn.cursor() # create cursor object to execute SQL commands
         
-        # to start the id count from 1 each time ite generated
+        # to start the id count from 1 each time its generated
         c.execute("DROP TABLE IF EXISTS expenses")
         
         # execute query to create table if not exists

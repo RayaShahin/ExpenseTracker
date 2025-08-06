@@ -42,7 +42,7 @@ def show_menu():
 if __name__ == "__main__":
     # initialize database
     init_db()
-    print("✅ Database initialized successfully!")
+    #print("✅ Database initialized successfully!")
     while True:
         show_menu()
         option = input("\nEnter Option: ")
